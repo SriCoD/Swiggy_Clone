@@ -12,7 +12,7 @@ const Landing = () => {
       <Jumbo/>
       <Feature/>
       <Restaurant/>
-      <Footer/>
+     
 
   </>;
 };
