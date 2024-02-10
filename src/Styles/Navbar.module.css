@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    z-index: 999;
+}
+.left{
+    display: flex;
+}
+.left img {
+    transition: transform 0.6s;
+    border-radius: 50%;
+}
+.left img:hover {
+    transform: scale(1.2);
+}
+.left > p,.right{
+    font-weight: 600;
+    margin-top: 37px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.left > img{
+    width: 100px;
+    cursor: pointer;
+}
+.left > p:hover{
+    color: coral;
+    cursor: pointer;
+}
+i{
+    color: rgb(83, 82, 82);
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: 300;
+}
+i:hover{
+    color: coral;
+}
+.navbar span{
+    margin-right: 65px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: "Ubuntu", sans-serif;
+}
+.left > i{
+    margin-top: 39px;
+    margin-left: 15px;
+    font-size: 24px;
+    color: coral;
+}
+
+.forLogoutBox{
+    background-color: #fff;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 60px;
+    width: 15%;
+    right: 14%;
+    height: 200px;
+    z-index: 999;
+    border-top: 4px solid #FC8019;
+    text-align: left;
+    font-weight: 500;
+    line-height: 40px;
+
+}
+
+.forLogoutBox> div {
+    cursor: pointer;
+    margin-left: 10%;
+
+}
+.forLogoutBox> div:hover {
+    color: #000;
+}
+
